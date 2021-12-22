@@ -22,6 +22,15 @@ div.book {
   margin-top: 150px;
 }
 
+div.platform > h1 {
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+div.platform > h2 {
+  margin-bottom: 80px;
+}
+
 div.book > h1 {
   font-size: 60px;
   line-height: 60px;
@@ -33,6 +42,7 @@ div.book > h3 {
   font-weight: 700;
   font-size: 30px;
   margin-left: 15px;
+  margin-bottom: 80px;
 }
 
 div.book-image {
