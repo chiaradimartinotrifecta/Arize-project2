@@ -1,5 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
+  color: white;
   margin: 0;
   padding: 0;
   background-image: url("background.png");
@@ -10,18 +11,30 @@ body {
 div.canvas {
   margin-left: 50px;
   margin-right: 80px;
+  margin-top: 150px;
 }
 
 hr {
-  width: 70%;
-  background-color: yellow;
+  width: 20%;
+  background-color: #f2c73f;
   height: 10px;
   border: 0;
+  position: absolute;
+  margin-left: 10px;
 }
 
 h1 {
   font-weight: 700;
   font-size: 150px;
   line-height: 120px;
-  color: white;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 40px;
+  margin-left: 15px;
+}
+
+h2 > span {
+  text-transform: uppercase;
 }
