@@ -3,8 +3,7 @@ body {
   color: white;
   margin: 0;
   padding: 0;
-  background-image: url("background.png");
-  background-repeat: no-repeat;
+  background-image: url("background.png"), url("background2.png");
   background-size: 100%;
 }
 
@@ -12,6 +11,21 @@ div.canvas {
   margin-left: 50px;
   margin-right: 80px;
   margin-top: 150px;
+}
+
+div.platfom {
+}
+
+div.book > h1 {
+  font-size: 60px;
+  line-height: 60px;
+}
+
+div.book > h3 {
+  color: #f2c73f;
+  font-weight: 700;
+  font-size: 40px;
+  margin-left: 15px;
 }
 
 hr {
