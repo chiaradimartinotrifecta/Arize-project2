@@ -71,6 +71,8 @@ div.book {
   background-image: url("background2.png");
   background-size: cover;
   background-size: 100%;
+  display: flex;
+  align-items: center;
 }
 
 div.special {
@@ -112,19 +114,10 @@ div.book-download {
   margin-bottom: 80px;
 }
 
-div.book {
-  display: flex;
-}
-
 div.column-left {
-  flex: 1, 2;
+  flex: 2;
 }
 
 div.column-right {
-  flex: 3;
-  margin-top: 100px;
-}
-
-img.column-right {
-  width: 80%;
+  flex: 1;
 }
