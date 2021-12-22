@@ -8,24 +8,35 @@ body {
 }
 
 div.canvas {
-  margin-left: 50px;
+  margin-left: 100px;
   margin-right: 80px;
   margin-top: 150px;
 }
 
-div.platfom {
+div.text-body {
+  margin-top: 80px;
+}
+
+div.book {
+  margin-right: 80px;
+  margin-top: 150px;
 }
 
 div.book > h1 {
   font-size: 60px;
   line-height: 60px;
+  margin-left: 10px;
 }
 
 div.book > h3 {
   color: #f2c73f;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
   margin-left: 15px;
+}
+
+div.book-image {
+  display: flex;
 }
 
 hr {
@@ -35,6 +46,7 @@ hr {
   border: 0;
   position: absolute;
   margin-left: 10px;
+  display: inline-block;
 }
 
 h1 {
