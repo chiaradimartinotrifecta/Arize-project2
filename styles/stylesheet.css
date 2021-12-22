@@ -1,0 +1,27 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("background.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+div.canvas {
+  margin-left: 50px;
+  margin-right: 80px;
+}
+
+hr {
+  width: 70%;
+  background-color: yellow;
+  height: 10px;
+  border: 0;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 150px;
+  line-height: 120px;
+  color: white;
+}
