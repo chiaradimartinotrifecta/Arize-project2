@@ -3,74 +3,128 @@ body {
   color: white;
   margin: 0;
   padding: 0;
-  background-image: url("background.png"), url("background2.png");
+}
+
+div.platform {
+  position: relative;
+  background-image: url("background.png");
+  background-size: cover;
   background-size: 100%;
 }
 
-div.canvas {
-  margin-left: 100px;
-  margin-right: 80px;
-  margin-top: 150px;
-}
-
-div.text-body {
-  margin-top: 80px;
-}
-
-div.book {
-  margin-right: 80px;
-  margin-top: 150px;
-}
-
-div.platform > h1 {
-  margin-top: 60px;
-  margin-bottom: 50px;
-}
-
-div.platform > h2 {
-  margin-bottom: 80px;
-}
-
-div.book > h1 {
-  font-size: 60px;
-  line-height: 60px;
-  margin-left: 10px;
-}
-
-div.book > h3 {
-  color: #f2c73f;
-  font-weight: 700;
-  font-size: 30px;
-  margin-left: 15px;
-  margin-bottom: 80px;
-}
-
-div.book-image {
-  display: flex;
-}
-
-hr {
+div.platform > hr {
   width: 20%;
   background-color: #f2c73f;
   height: 10px;
   border: 0;
   position: absolute;
-  margin-left: 10px;
   display: inline-block;
+  top: 50px;
+  left: 80px;
 }
 
-h1 {
+div.title-upper {
+  font-weight: 400;
+  font-size: 35px;
+  margin-left: 75px;
+  padding-top: 100px;
+  letter-spacing: 1px;
+}
+
+div.title-upper > span {
+  text-transform: uppercase;
+}
+
+div.title-middle {
   font-weight: 700;
   font-size: 150px;
   line-height: 120px;
+  margin-left: 60px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
-
-h2 {
+div.title-bottom {
   font-weight: 400;
   font-size: 40px;
-  margin-left: 15px;
+  margin-left: 60px;
+  margin-bottom: 60px;
 }
 
-h2 > span {
+div.title-bottom > span {
   text-transform: uppercase;
+}
+
+img.logo {
+  margin-left: 60px;
+  width: 220px;
+  margin-bottom: 50px;
+}
+
+img.speaker {
+  float: right;
+  width: 40%;
+  margin-top: 40px;
+}
+
+div.book {
+  position: relative;
+  background-image: url("background2.png");
+  background-size: cover;
+  background-size: 100%;
+}
+
+div.special {
+  letter-spacing: 10px;
+}
+
+div.column-left > hr {
+  width: 19%;
+  background-color: #f2c73f;
+  height: 10px;
+  border: 0;
+  position: absolute;
+  display: inline-block;
+  top: 150px;
+  left: 75px;
+}
+
+div.book-title {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 75px;
+  margin-left: 70px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+div.book-subtitle {
+  font-size: 45px;
+  line-height: 45px;
+  margin-left: 70px;
+  margin-bottom: 20px;
+}
+
+div.book-download {
+  color: #f2c73f;
+  font-weight: 700;
+  font-size: 30px;
+  margin-left: 70px;
+  margin-bottom: 80px;
+}
+
+div.book {
+  display: flex;
+}
+
+div.column-left {
+  flex: 1, 2;
+}
+
+div.column-right {
+  flex: 3;
+  margin-top: 100px;
+}
+
+img.column-right {
+  width: 80%;
 }
